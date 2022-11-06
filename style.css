@@ -84,6 +84,7 @@ p {
   }
 
   100%{
+    transition: 250ms;
     transform: translateX(0%);
   }
 }
@@ -93,6 +94,20 @@ p {
 }
 
 @keyframes text-box{
+  0%{
+    transform: translateY(50%);
+  }
+
+  100%{
+    transform: translateY(0%);
+  }
+}
+
+.text-box2{
+  animation: text-box 3s linear;
+}
+
+@keyframes text-box2{
   0%{
     transform: translateY(50%);
   }
