@@ -19,7 +19,10 @@ p {
 }
 
 .rain-image {
-  margin-left: 9.5rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5em;
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -70,3 +73,32 @@ p {
   color: white;
   cursor: pointer;
 }
+
+.header2-container{
+  animation: header2-container 3s linear;
+}
+
+@keyframes header2-container{
+  0%{
+    transform: translateX(200%);
+  }
+
+  100%{
+    transform: translateX(0%);
+  }
+}
+
+.text-box{
+  animation: text-box 3s linear;
+}
+
+@keyframes text-box{
+  0%{
+    transform: translateY(50%);
+  }
+
+  100%{
+    transform: translateY(0%);
+  }
+}
+
