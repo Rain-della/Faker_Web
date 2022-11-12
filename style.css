@@ -74,46 +74,45 @@ p {
   cursor: pointer;
 }
 
-.header2-container{
+.header2-container {
   animation: header2-container 3s linear;
 }
 
-@keyframes header2-container{
-  0%{
+@keyframes header2-container {
+  0% {
     transform: translateX(200%);
   }
 
-  100%{
+  100% {
     transition: 250ms;
     transform: translateX(0%);
   }
 }
 
-.text-box{
+.text-box {
   animation: text-box 3s linear;
 }
 
-@keyframes text-box{
-  0%{
+@keyframes text-box {
+  0% {
     transform: translateY(50%);
   }
 
-  100%{
+  100% {
     transform: translateY(0%);
   }
 }
 
-.text-box2{
+.text-box2 {
   animation: text-box 3s linear;
 }
 
-@keyframes text-box2{
-  0%{
+@keyframes text-box2 {
+  0% {
     transform: translateY(50%);
   }
 
-  100%{
+  100% {
     transform: translateY(0%);
   }
 }
-
