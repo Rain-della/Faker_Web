@@ -75,44 +75,18 @@ p {
 }
 
 .header2-container {
-  animation: header2-container 3s linear;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  animation: header2-container 6s linear;
 }
 
 @keyframes header2-container {
   0% {
-    transform: translateX(200%);
+    opacity: 0;
   }
 
   100% {
-    transition: 250ms;
-    transform: translateX(0%);
-  }
-}
-
-.text-box {
-  animation: text-box 3s linear;
-}
-
-@keyframes text-box {
-  0% {
-    transform: translateY(50%);
-  }
-
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-.text-box2 {
-  animation: text-box 3s linear;
-}
-
-@keyframes text-box2 {
-  0% {
-    transform: translateY(50%);
-  }
-
-  100% {
-    transform: translateY(0%);
+    opacity: 100;
   }
 }
