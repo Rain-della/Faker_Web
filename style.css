@@ -101,7 +101,6 @@ p {
 
 .main-footer-container ul {
   flex-grow: 1;
-  text-align: end;
 }
 
 .footer-nav li {
@@ -109,8 +108,8 @@ p {
 }
 
 .footer-nav img {
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
 }
 
 .nav ul {
